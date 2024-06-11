@@ -258,7 +258,7 @@ footer nav ul a:hover {
 
 .heroaree {
 
-    background-image: url(/img/herosection/aree\in\mostra.jpg);
+    background-image: url(img/herosection/aree\in\mostra.jpg);
     width: 100%;
     height: 800px;
     max-width: 1521px;
@@ -287,7 +287,7 @@ footer nav ul a:hover {
 /*pagina 3 visite guidate*/
 
 .herovisite{
-    background-image: url(/img/herosection/Hero\Visite\Guidate.jpg);
+    background-image: url(img/herosection/Hero\Visite\Guidate.jpg);
     width: 100%;
     height: 800px;
     max-width: 1521px;
@@ -347,7 +347,7 @@ footer nav ul a:hover {
 /*galleria*/
 
 .herogallery{
-    background-image: url(/img/herosection/hero\galllery.jpg);
+    background-image: url(img/herosection/hero\galllery.jpg);
     width: 100%;
     height: 800px;
     max-width: 1521px;
@@ -448,7 +448,7 @@ padding-left: 20px;
 
 /*esordi*/
 .heroesordi{
-    background-image: url(/img/herosection/Hero\gli\esordi.jpg);
+    background-image: url(img/herosection/Hero\gli\esordi.jpg);
     width: 100%;
     height: 800px;
     max-width: 1521px;
@@ -498,7 +498,7 @@ padding-left: 20px;
 /*protagonisti*/
 
 .heroprotagonisti{
-    background-image: url(/img/herosection/Hero\protagonisti.jpg);
+    background-image: url(img/herosection/Hero\protagonisti.jpg);
     width: 100%;
     height: 800px;
     max-width: 1521px;
@@ -517,7 +517,7 @@ padding-left: 20px;
 /*temi*/
 
 .herotemi{
-    background-image: url(/img/herosection/Hero\temi.jpg);
+    background-image: url(img/herosection/Hero\temi.jpg);
     width: 100%;
     height: 800px;
     max-width: 1521px;
@@ -538,7 +538,7 @@ padding-left: 20px;
 /*tim burton e carosello*/
 
 .herotim{
-    background-image: url(/img/herosection/Hero\tim\burton.jpg);
+    background-image: url(img/herosection/Hero\tim\burton.jpg);
     width: 100%;
     height: 800px;
     max-width: 1521px;
@@ -823,7 +823,7 @@ padding-left: 20px;
   /*informazioni*/
 
   .heroinfo{
-    background-image: url(/img/herosection/heroinfo.jpg);
+    background-image: url(img/herosection/heroinfo.jpg);
     width: 100%;
     height: 800px;
     max-width: 1521px;
