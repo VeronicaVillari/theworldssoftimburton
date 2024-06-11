@@ -1,0 +1,884 @@
+body {
+    margin: 0;
+    font-family: "Lexend", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.contenitore {
+	max-width: 1100px; 
+	margin: 0 auto;
+}
+
+
+.hero{
+ background-image: url(/img/herosection/Group\ 67.jpg);
+    width: 100%;
+    height: 800px;
+    max-width: 1521px;
+    width: 1519px;
+    
+   
+}
+
+.button {
+    display: flex;
+}
+
+
+
+.hero h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 200px;
+    font-weight: 900;
+    line-height: 90%;
+    letter-spacing: 40%;
+    
+}
+.nav {
+   max-width: 1400;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px ;
+    font-size: 16px;
+    width: 1200px;
+    text-decoration: none;
+    
+    
+    
+  
+}
+header p  {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    text-decoration: none;
+     
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header nav ul a:hover {
+    text-decoration: underline;
+    color:rgb(255, 255, 255);
+}
+
+header img{
+    width: 100%;
+    height: 1px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.button {
+    color: #6600ec;
+    border: none;
+    color: rgb(255, 9, 9);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+.purplesection{
+    
+        background-color: #592F67;
+        margin: 0 auto;
+        display: flex;
+        height: 500px;
+
+}
+.purplesection h1{
+    color: white;
+}
+
+.purplesection p{
+    color: white;
+   
+}
+
+.text {
+    display: grid;
+    max-width: 900px;
+    margin: auto;   
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.text p{
+    max-width: 1000px;
+    width: 500px;
+    
+}
+
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1100px;
+    margin: 48px auto;
+    gap: 25px;
+    margin-top: 200px;
+    
+    
+}
+
+section.card img{
+    height: 300px;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+
+section.card div{
+    border-radius: 8px;
+}
+
+
+
+.box{
+    transition: 0.5s;
+}
+
+.box img{
+    display: block;
+    
+}
+.box:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.testo h1{
+    position: absolute;
+    color:#fff;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 25px;
+    
+    
+}
+
+
+.box {
+    position: relative;
+}
+
+.info{
+    margin: auto;
+   
+    
+}
+
+.artbook{
+    margin: auto;
+    margin-top: 200px;
+    margin-left: 500px;
+    display: flex;
+    
+}
+
+.artbook h1{
+    margin: auto;
+    color:  rgb(89, 47, 103);
+    
+}
+
+footer {
+    background-color: rgb(89, 47, 103);   
+    height: 300px;
+     margin-top: 200px;
+}
+
+footer h2{
+    font-size: 18px;
+    display: flex;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+div.footer{
+    max-width: 1100px;
+    padding:100px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav ul{
+    list-style-type: none;
+    color: whitesmoke;
+    align-content: center;
+}
+
+footer nav ul a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer nav ul a:hover {
+    text-decoration: underline;
+    color: #fd7979;
+
+    }
+
+    /*pagina 2 AREE IN MOSTRA*/
+
+.heroaree {
+
+    background-image: url(/img/herosection/aree\ in\ mostra.jpg);
+    width: 100%;
+    height: 800px;
+    max-width: 1521px;
+    width: 1519px;       
+}
+
+.heroaree h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 200px;
+    font-weight: 900;
+    line-height: 90%;
+    letter-spacing: 40%;
+}
+
+
+.map{
+   align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+   
+}
+
+
+/*pagina 3 visite guidate*/
+
+.herovisite{
+    background-image: url(/img/herosection/Hero\ Visite\ Guidate.jpg);
+    width: 100%;
+    height: 800px;
+    max-width: 1521px;
+    width: 1519px;       
+}
+
+.herovisite h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 200px;
+    font-weight: 900;
+    line-height: 90%;
+    letter-spacing: 40%;
+}
+
+.orari{
+    display: flex;
+    margin: auto;
+    margin-top: 200px;
+
+}
+
+.titolo{
+    color: #6600ec;
+    margin: auto;
+    max-width: 1000px; 
+    
+    display: flex;
+}
+
+.testo{
+    max-width: 800px;
+    margin: auto;
+}
+
+.testo p {
+    padding-top: 20px;
+}
+
+.immagineguidata{
+    max-width: 400px;
+    margin: auto;
+    width: 100%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.buttonguida{
+    margin: auto;
+    max-width: 400px;
+    margin-top: 50px;
+    
+}
+
+
+
+/*galleria*/
+
+.herogallery{
+    background-image: url(/img/herosection/hero\ galllery.jpg);
+    width: 100%;
+    height: 800px;
+    max-width: 1521px;
+    width: 1519px;  
+}
+
+.herogallery h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 200px;
+    font-weight: 900;
+    line-height: 90%;
+    letter-spacing: 40%;
+}
+
+
+
+.contenitore {
+	max-width: 1400px; 
+	margin: 0 auto; 
+}
+
+.square {
+    display: flex;
+    gap:136px;
+    padding: 200px 0px 64px 0px;
+    margin: 0;
+}
+
+.texto {
+    width: 50%;
+}
+
+.texto h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 1.4rem;
+}
+
+
+
+.images {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    row-gap: 200px;
+
+}
+
+.images img {
+    border-radius: 5px;
+    height: 300px;
+    width: 600px;
+    border-bottom: 20px solid rgb(116, 1, 116);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.sticky {
+    position: sticky;
+    top: 64px;
+    background-color: rgb(116, 1, 116);
+    max-width: 350px;
+    width: 320px;
+    height: 400px;
+    border-radius: 0px 5px 5px 0px  ;
+    margin: 0 ;
+    
+}
+
+.sticky nav ul {
+    list-style-type: none;
+    color: #fff;
+    max-width: 300px;
+    font-weight: 400;
+    padding: 20px 10px 10 px 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    line-height: 400%;
+}
+
+.sticky  h2{
+color: #fff;
+max-width: 300px;
+font-weight: 600;
+padding: 20px 10px 10 px 20px;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+.images h3{
+    font-size: 15px;
+    padding-top: 10px;
+    font-weight: 500;
+
+}
+
+/*esordi*/
+.heroesordi{
+    background-image: url(/img/herosection/Hero\ gli\ esordi.jpg);
+    width: 100%;
+    height: 800px;
+    max-width: 1521px;
+    width: 1519px;  
+}
+
+.heroesordi h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 200px;
+    font-weight: 900;
+    line-height: 90%;
+    letter-spacing: 40%;
+}
+
+.uno {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 100px;
+}
+.uno p{
+    font-size: 14px;
+    max-width: 550px;
+}
+
+.uno h1{
+    font-size: 50px;
+}
+
+.uno h2{
+    font-size: 20px;
+    width: 700px;
+    color:rgb(116, 1, 116) ;   
+}
+
+.esordiimg{
+    max-width: 600px;
+    margin:  auto;
+    padding-top: 50px;
+    margin-left: 650px;
+    
+   
+
+}
+
+/*protagonisti*/
+
+.heroprotagonisti{
+    background-image: url(/img/herosection/Hero\ protagonisti.jpg);
+    width: 100%;
+    height: 800px;
+    max-width: 1521px;
+    width: 1519px;  
+}
+
+.heroprotagonisti h1{
+    color: whitesmoke;
+    font-size: 150px;
+    margin: auto;
+    font-weight: 900;
+    line-height: 90%;
+    letter-spacing: 40%;
+} 
+
+/*temi*/
+
+.herotemi{
+    background-image: url(/img/herosection/Hero\ temi.jpg);
+    width: 100%;
+    height: 800px;
+    max-width: 1521px;
+    width: 1519px;  
+}
+
+.herotemi h1{
+    color: whitesmoke;
+    font-size:180px;
+    text-align: center;
+    margin: auto;
+    font-weight: 900;
+    line-height: 90%;
+    letter-spacing: 40%;
+} 
+
+
+/*tim burton e carosello*/
+
+.herotim{
+    background-image: url(/img/herosection/Hero\ tim\ burton.jpg);
+    width: 100%;
+    height: 800px;
+    max-width: 1521px;
+    width: 1519px;  
+}
+
+.herotim h1{
+    color: whitesmoke;
+    font-size:180px;
+    text-align: center;
+    margin: auto;
+    font-weight: 900;
+    line-height: 90%;
+    letter-spacing: 40%;
+} 
+
+.burton {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+.burton p{
+    font-size: 14px;
+    max-width: 550px;
+}
+
+.burton h2{
+    font-size: 20px;
+    width: 700px;
+    color:rgb(116, 1, 116) ;   
+}
+
+.burtonsign{
+    max-width: 600px;
+    margin:  auto;
+    padding-top: 50px;
+    margin-left: 800px;
+}
+
+
+/*carosello*/
+#carousel {
+    position: relative;
+    height: 400px;
+    object-fit: cover;
+    top: 50%;
+    transform: translateY(-20%);
+    /*overflow: hidden;*/
+    padding: 180px;
+    margin: 0 auto;
+  }
+  
+  #carousel div {
+    position: absolute;
+    transition: transform 400ms, left 400ms, opacity 400ms, z-index 0s;
+    opacity: 1;
+  }
+  
+  
+  #carousel div img {
+    width: 400px;
+    transition: width 400ms;
+     -webkit-user-drag: none;
+     box-shadow: rgba(66, 43, 66, 0.911) 0px 20px 30px -10px;
+  }
+   
+  #carousel div img {
+    border-radius: 5px;
+    width: 330;
+    height: 464;
+    object-fit: cover;
+  }
+  
+  #carousel div.hideLeft {
+    left: 0%;
+    opacity: 0;
+    transform: translateY(50%) translateX(-50%);
+  }
+  
+  #carousel div.hideLeft img {
+    width: 200px;
+  }
+  
+  #carousel div.hideRight {
+    opacity: 0;
+    transform: translateY(50%) translateX(-50%);
+  }
+  
+  #carousel div.hideRight img {
+    width: 200px;
+  }
+  
+  #carousel div.prev {
+    z-index: 5;
+    left: 30%;
+    transform: translateY(50px) translateX(-50%);
+  }
+  
+  #carousel div.prev img {
+    width: 300px;
+  }
+  
+  #carousel div.prevLeftSecond {
+    z-index: 4;
+    left: 15%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 0.7;
+  }
+  
+  #carousel div.prevLeftSecond img {
+    width: 200px;
+  }
+  
+  #carousel div.selected {
+    z-index: 10;
+    left: 50%;
+    transform: translateY(0px) translateX(-50%);
+  }
+  
+  #carousel div.next {
+    z-index: 5;
+    left: 70%;
+    transform: translateY(50px) translateX(-50%);
+  }
+  
+  #carousel div.next img {
+    width: 300px;
+  }
+  
+  #carousel div.nextRightSecond {
+    z-index: 4;
+    left: 85%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 0.7;
+  }
+  
+  #carousel div.nextRightSecond img {
+    width: 200px;
+  }
+  
+  .button-82-pushable {
+    position: relative;
+    background-color: #ffffff00;
+    border: none;
+    color: #592F67;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100%;
+  }
+  
+  .button-82-pushable {
+    padding: 0;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .main span.opere {
+    margin: 0 auto;
+    padding: 100px;
+  }
+  
+  .buttons {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button-82-pushable {
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    /* impostando un padding alto qui è possibile allontanare i bottoni per ricreare il design, trovare metodo per mettere bottoni su img*/
+  }
+  
+  
+  .button-82-front {
+    display: block;
+    position: relative;
+    padding: 16px 27px;
+    font-size: 2rem;
+    color: #592F67;
+    background: #FFFFFF;
+    will-change: transform;
+    transform: translateY(-4px);
+    border-radius: 50%;
+    transition:
+      transform
+      600ms
+      cubic-bezier(.3, .7, .4, 1);
+  }
+  
+  .titoli-filmografia {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+  }
+  
+  .testi {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+  
+  .titoli {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+  }
+  
+  .titoli-filmografia {
+     font-size: 24px;
+     margin: auto;
+  }  
+  
+  @media (min-width: 768px) {
+    .button-82-front {
+      font-size: 2rem;
+      padding: 20px 42px;
+    }
+  }
+  
+  .button-82-pushable:hover {
+    filter: brightness(110%);
+    -webkit-filter: brightness(110%);
+  }
+  
+  .button-82-pushable:hover .button-82-front {
+    transform: translateY(-6px);
+    transition:
+      transform
+      250ms
+      cubic-bezier(.3, .7, .4, 1.5);
+  }
+  
+  .button-82-pushable:active .button-82-front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+  }
+  
+  .button-82-pushable:hover .button-82-shadow {
+    transform: translateY(4px);
+    transition:
+      transform
+      250ms
+      cubic-bezier(.3, .7, .4, 1.5);
+  }
+  
+  .button-82-pushable:active .button-82-shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+  }
+  
+  .button-82-pushable:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  /*informazioni*/
+
+  .heroinfo{
+    background-image: url(/img/herosection/heroinfo.jpg);
+    width: 100%;
+    height: 800px;
+    max-width: 1521px;
+    width: 1519px;  
+}
+
+.heroinfo h1{
+    color: whitesmoke;
+    font-size:160px;
+    text-align: center;
+    margin: auto;
+    font-weight: 900;
+    line-height: 90%;
+    letter-spacing: 40%;
+} 
+  
+.biglietti{
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+}
+.biglietti p{
+    font-size: 18px;
+    max-width: 550px;
+}
+
+
+.biglietti h2{
+    font-size: 32px;
+    width: 700px;
+    color:rgb(116, 1, 116) ;   
+}
+
+
+.prezzi{
+    margin: auto;
+    max-width: 300px;
+    padding-top: 50px;
+}
+
+.prezzi h1{
+background-color:rgb(116, 1, 116);
+border-radius:5px 5px 0px 0px  ;
+font-size: 24px;
+color: white;
+padding: 10px;
+}
+
+.prezzi p{
+    background-color: rgb(231, 231, 231);
+    font-size: 16px;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+}
+
+

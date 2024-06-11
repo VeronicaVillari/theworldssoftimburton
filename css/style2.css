@@ -1,0 +1,46 @@
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1100px;
+    margin: 48px auto;
+    gap: 25px;
+    
+}
+
+section.card img{
+    height: 300px;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.box{
+    transition: 0.5s;
+}
+
+.box img{
+    display: block;  
+}
+.box:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+
+ 
+
+
+.testo h1{
+    position: absolute;
+    color:#fff;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    
+    
+}
+
+
+.box {
+    position: relative;
+}
+
